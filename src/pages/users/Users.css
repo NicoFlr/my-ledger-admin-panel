@@ -1,0 +1,18 @@
+.users-space {
+    padding-bottom: 24px;
+}
+
+.users-space-icons {
+    padding-right: 16px;
+}
+
+.users-action-icons {
+    cursor: pointer;
+}
+
+.users-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}

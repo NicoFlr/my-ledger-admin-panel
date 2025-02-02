@@ -1,0 +1,19 @@
+.header-container {
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.header-navOptions {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex: 1;
+}
+
+.header-endOptions {
+    display: flex;
+    justify-content: flex-end;
+    flex: 0.5;
+  }
