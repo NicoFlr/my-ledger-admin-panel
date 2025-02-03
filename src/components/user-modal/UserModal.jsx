@@ -181,6 +181,7 @@ const handleSubmitModal = () => {
             error={emailError}
             helperText={emailError && 'This field must not be empty or invalid.'}
           />
+          {mode !== MODAL_MODE.EDIT && (
           <TextField
             label='Password'
             variant='outlined'
@@ -191,7 +192,7 @@ const handleSubmitModal = () => {
             required
             error={passwordError}
             helperText={passwordError && 'This field must not be empty or invalid.'}
-          />
+          />)}
           <FormControl fullWidth margin='normal' error={roleError}>
             <InputLabel id='select-role-label' required>
               Select Role
