@@ -44,6 +44,24 @@ const Header = () => {
             >
               <Typography variant='h5'>Users</Typography>
             </Button>
+            <Button
+              varian='text'
+              color='inherit'
+              LinkComponent={Link}
+              to='/roles'
+              style={{ textDecoration: 'none' }}
+            >
+              <Typography variant='h5'>Roles</Typography>
+            </Button>
+            <Button
+              varian='text'
+              color='inherit'
+              LinkComponent={Link}
+              to='/categories'
+              style={{ textDecoration: 'none' }}
+            >
+              <Typography variant='h5'>Categories</Typography>
+            </Button>
           </Box>
           <Box className='header-endOptions' sx={{ display: 'flex' }}>
             <Button onClick={closeSession} color='inherit'>

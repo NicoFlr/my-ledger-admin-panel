@@ -16,6 +16,8 @@ import SnackbarMessage from './components/snackbar-message/SnackbarMessage';
 import { SESSION_STORAGE } from './constants/sessionStorageConstants';
 import { jwtDecode } from 'jwt-decode';
 import './App.css';
+import { Roles } from './pages/roles/Roles';
+import { Categories } from './pages/categories/Categories';
 
 function App() {
 
@@ -53,6 +55,8 @@ function App() {
     <Route path='/login' element={<Login />} />
     <Route element={<Layout />}>
       <Route path='/users' element={<Users />} />
+      <Route path='/roles' element={<Roles />} />
+      <Route path='/categories' element={<Categories />} />
     </Route>
   </Routes>
   <SnackbarMessage />
